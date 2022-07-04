@@ -2,6 +2,10 @@ package ease
 
 import "math"
 
+func Linear(x float64) float64 {
+	return x
+}
+
 func InSine(x float64) float64 {
 	return 1 - math.Cos((x*math.Pi)/2)
 }
