@@ -1,4 +1,4 @@
-package easings
+package ease
 
 import "math"
 
